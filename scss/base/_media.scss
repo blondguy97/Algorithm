@@ -1,0 +1,1125 @@
+@media (max-width: 1200px) {
+    .header-list {
+        &__link {
+            font-size: 18px;
+        }
+    }
+
+
+    .small-card-black {
+        padding: 30px 25px 60px;
+
+        &__detail {
+            bottom: 14px;
+        }
+    }
+
+    .small-card {
+        display: flex;
+        align-items: center;
+    }
+
+    .big-card {
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        &__time,
+        &__text {
+            margin-bottom: 30px;
+        }
+    }
+
+
+
+    .program-duration {
+        &__text {
+            font-size: 16px;
+        }
+
+        &__hours {
+            font-size: 18px;
+            padding-left: 30px;
+        }
+
+        &__hours:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    .program-days {
+        &__link {
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+    }
+
+    .gallery-video {
+        height: 520px;
+    }
+
+    .certificate-course {
+        padding: 30px;
+
+        &__title {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+
+    .certificate-slider {
+        padding: 30px;
+
+        &__text {
+            margin-bottom: 65px;
+        }
+
+        &__title {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+    }
+
+
+    .timetable {
+        &__item {
+            min-height: 450px;
+        }
+    }
+
+    .reviews-item {
+        padding: 30px 30px 100px 30px;
+
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+
+    .others-course-item {
+        &__time {
+            margin: 20px 0;
+        }
+    }
+
+
+    .footer-info,
+    .footer-contact {
+        padding: 35px;
+    }
+
+    .footer-info {
+        &__text {
+            margin-bottom: 20px;
+        }
+
+        &__logo {
+            margin-bottom: 15px;
+        }
+    }
+
+
+
+    .accordion-card {
+        &__body-descr {
+            padding-left: 100px;
+        }
+    }
+
+
+    .help,
+    .program,
+    .gallery,
+    .course-and-form,
+    .certificate,
+    .timetable,
+    .others-courses,
+    .questions,
+    .footer {
+        padding-bottom: 70px;
+    }
+
+    .small-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .help-top,
+    .big-card {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .gallery-grid {
+
+
+        &__image,
+        &__open {
+            width: 100%;
+            border-radius: 20px;
+            height: 100%;
+        }
+
+
+    }
+
+
+
+    .big-card {
+        padding: 40px;
+    }
+
+    .footer__col {
+        margin-bottom: 30px;
+    }
+
+    .footer__col_2 {
+        order: -1;
+    }
+
+
+
+    .others-course-item {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+
+    .gallery-video {
+        height: 380px;
+    }
+
+
+
+    .course {
+        margin-bottom: 50px;
+
+        &__items {
+            display: block;
+        }
+
+        &__tabs,
+        &__items_tabs {
+            display: none;
+        }
+    }
+
+    .course-form {
+        padding: 30px 0;
+
+        &__form-wrapper {
+            padding-left: 50px;
+        }
+
+        &__title {
+            margin-bottom: 40px;
+        }
+    }
+
+    .course-item {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+
+
+    .header {
+        &__btn {
+            padding: 5px 13px;
+            font-size: 14px;
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+
+    .small-card {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .small-card-black {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .header-list {
+        gap: 0px;
+        justify-content: space-around;
+
+        &__link {
+            font-size: 18px;
+        }
+
+        &__link {
+            font-size: 16px;
+        }
+    }
+
+
+    .program-advices,
+    .program-days {
+        margin-bottom: 10px;
+    }
+
+    .program-duration {
+        height: 100%;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+
+
+    .program {
+        &__wrapper {
+            height: 100%;
+            display: flex;
+        }
+
+
+
+        &__download {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            padding: 50px 20px 16px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+
+
+    .certificate-course {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .certificate-slider {
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            margin-bottom: 40px;
+        }
+    }
+
+
+    .help,
+    .program,
+    .gallery,
+    .course-and-form,
+    .certificate,
+    .timetable,
+    .others-courses,
+    .questions,
+    .footer {
+        padding-bottom: 50px;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .gallery-video {
+        height: 280px;
+    }
+
+
+    .gallery-grid {
+        &__open {
+            padding: 10px;
+        }
+
+        &__text {
+            padding-top: 80px;
+            font-size: 15px;
+        }
+
+        &__text::before {
+            top: 20px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+
+    .course-form__success,
+    .course-form__error,
+    .course-form__warning {
+        bottom: 30px;
+        right: 30px;
+    }
+
+
+    .course {
+        margin-bottom: 30px;
+    }
+
+    .course-form {
+        padding: 30px 0 0;
+
+        &__form-wrapper {
+            padding: 0 30px 100px;
+        }
+
+        &__line:not(:last-child) {
+            margin-bottom: 25px;
+        }
+
+        &__btn {
+            bottom: 30px;
+            height: 50px;
+            left: 30px;
+            width: 150px;
+        }
+    }
+
+    .course-item {
+        &__title {
+            margin-bottom: 20px;
+        }
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        width: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15px;
+
+        &__line {
+            display: block;
+            background-color: $main-color;
+            height: 3px;
+            width: 100%;
+            transition: 0.5s all;
+        }
+
+        &__line:not(:last-child) {
+            margin-bottom: 3px;
+        }
+    }
+
+
+    .hamburger_active {
+        .hamburger__line {
+            margin-bottom: -3px;
+            transition: 0.5s all;
+        }
+
+        .hamburger__line:nth-child(1) {
+            transform: rotate(-45deg);
+        }
+
+        .hamburger__line:nth-child(2) {
+            display: none;
+        }
+
+        .hamburger__line:nth-child(3) {
+            transform: rotate(45deg);
+        }
+    }
+
+    .header-list_mobile {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        z-index: 100;
+        padding: 20px 15px;
+        width: 50%;
+        transition: 0.3s all;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+
+        &__link {
+            font-size: 20px;
+        }
+    }
+
+    .header-list_mobile_active {
+        left: 0;
+    }
+
+    .header-list_red {
+        background-color: rgba($main-dark-red-color, 0.8);
+
+    }
+
+    .header-list_blue {
+        background-color: rgba($main-dark-blue-color, 0.8);
+    }
+
+    .header-list_purple {
+        background-color: rgba($main-dark-purple-color, 0.8);
+    }
+
+    .program-days {
+        &__link {
+            padding: 8px 7px;
+            font-size: 13px;
+        }
+    }
+
+    .program-advices,
+    .program-days {
+        margin-bottom: 20px;
+    }
+
+    .program {
+        &__download-text {
+            padding-top: 60px;
+        }
+
+        &__download {
+            padding: 30px 20px;
+        }
+    }
+
+
+    .help,
+    .program,
+    .gallery,
+    .course-and-form,
+    .certificate,
+    .timetable,
+    .others-courses,
+    .questions,
+    .footer {
+        padding-bottom: 40px;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+    .header {
+        &__logo-img {
+            width: 50%;
+        }
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .help,
+    .program,
+    .gallery,
+    .course-and-form,
+    .certificate,
+    .timetable,
+    .others-courses,
+    .questions,
+    .footer {
+        padding-bottom: 30px;
+    }
+
+    .instructors {
+        padding-bottom: 15px;
+    }
+
+    .slider {
+        padding: 0px 30px;
+    }
+
+
+    .modal-form__success,
+    .modal-form__error,
+    .modal-form__warning {
+        font-size: 11px;
+    }
+
+
+
+
+
+    .certificate-course {
+        position: relative;
+        padding: 15px 15px 100px;
+
+        &__click-here {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+        }
+
+        &__images {
+            width: 100%;
+            justify-content: space-evenly;
+        }
+    }
+
+    .certificate-slider {
+
+        &__title {
+            font-size: 20px;
+        }
+
+        &__text {
+            font-size: 15px;
+        }
+    }
+
+    .why-us {
+        padding-bottom: 0;
+    }
+
+    .others-course-item,
+    .certificate-slider {
+        padding: 25px 15px;
+    }
+
+    .reviews-item {
+        padding: 15px 15px 100px;
+    }
+
+
+
+    .footer-contact {
+        padding: 15px;
+
+        &__title {
+            margin-bottom: 45px;
+        }
+
+        &__link_phone {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        &__link_email {
+            font-size: 15px;
+        }
+
+        &__links {
+            margin-bottom: 15px;
+        }
+
+        &__social {
+            flex-direction: column;
+        }
+
+        &__social-icons {
+            order: 2;
+        }
+
+        &__social-address {
+            margin-bottom: 45px;
+            font-size: 12px;
+        }
+    }
+
+
+    .reviews {
+        padding-bottom: 30px;
+    }
+
+    .course-form {
+        border-radius: 25px;
+    }
+
+
+    .modal {
+        &__contacts {
+            display: block;
+        }
+
+        &__contacts-col:not(:last-child) {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        &__contacts-col {
+            display: block;
+            max-width: 100%;
+        }
+    }
+
+    .gallery-grid {
+        margin-bottom: 0;
+
+        &__item {
+            margin-bottom: 10px;
+        }
+
+        &__image {
+            height: auto;
+        }
+
+
+        &__line {
+            gap: 0;
+        }
+
+        &__text {
+            padding-top: 50px;
+            font-size: 13px;
+        }
+
+        &__text::before {
+            top: 5px;
+        }
+
+        &__line_mobile {
+            flex-direction: row;
+            gap: 15px;
+
+            .gallery-grid__item {
+                width: 50%;
+            }
+
+            .gallery-grid__image,
+            .gallery-grid__open {
+                height: 110px;
+            }
+        }
+
+    }
+
+
+
+
+
+    .footer-contact {
+        &__title {
+            margin-bottom: 45px;
+        }
+
+        &__link_phone {
+            font-size: 30px;
+        }
+
+        &__link_email {
+            font-size: 15px;
+        }
+
+        &__links {
+            margin-bottom: 50px;
+        }
+
+        &__social {
+            flex-direction: column;
+        }
+
+        &__social-icons {
+            order: 2;
+        }
+    }
+
+
+
+    .accordion-card {
+        &__header {
+            padding-left: 50px;
+        }
+
+        &__body-descr {
+            padding-left: 80px;
+        }
+
+        &__plus {
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .others-course-item {
+        &__btn {
+            width: 60%;
+        }
+    }
+
+
+    .timetable {
+        &__item {
+            min-height: 350px;
+        }
+    }
+
+    .gallery-video {
+        height: 200px;
+    }
+
+    .course {
+        margin-bottom: 10px;
+    }
+
+    .course-item {
+        &__title {
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .instructors-item {
+        &__social-icons {
+            gap: 10px;
+        }
+
+        &__name {
+            font-size: 25px;
+        }
+
+        &__role {
+            margin-bottom: 25px;
+        }
+    }
+
+    .course-form {
+        &__form-wrapper {
+            padding: 0 15px 100px;
+        }
+
+        &__title {
+            padding-left: 15px;
+        }
+
+        &__btn {
+            bottom: 25px;
+            height: 50px;
+            left: 15px;
+            width: 150px;
+        }
+    }
+
+
+    .program-duration {
+        padding: 14px;
+        justify-content: space-evenly;
+
+        &__text {
+            font-size: 12px;
+        }
+    }
+
+
+    .program {
+        &__hint {
+            display: none;
+
+        }
+
+        &__hint_mobile {
+            font-size: 11px;
+            display: block;
+
+        }
+
+        &__download {
+            padding: 14px;
+        }
+
+
+
+        &__nav {
+            margin-bottom: 15px;
+        }
+
+        &__download-text {
+            font-size: 12px;
+        }
+    }
+
+    .program-days {
+        width: auto;
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+        &__link {
+            padding: 8px 15px;
+            font-size: 10px;
+        }
+    }
+
+
+
+
+
+    .program-advices {
+        padding: 25px 15px 15px;
+        margin-bottom: 10px;
+
+        &__title {
+            font-size: 13px;
+        }
+
+        &__text {
+            font-size: 11px;
+        }
+
+        &__additional-text {
+            font-size: 11px;
+            padding-left: 15px;
+            margin-top: 10px;
+        }
+    }
+
+    .small-card {
+        padding: 20px 15px;
+
+        &__text {
+            font-size: 12px;
+            padding-left: 37px;
+        }
+
+        &__text::before {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .small-card-black {
+        padding: 20px 15px 80px;
+
+        &__detail {
+            font-size: 12px;
+            width: 50%;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        &__text {
+            font-size: 12px;
+            padding-left: 37px;
+            max-width: 100%;
+        }
+
+        &__text::before {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .help-top {
+        margin-bottom: 15px;
+    }
+
+    .big-card {
+        padding: 15px;
+        margin-bottom: 10px;
+
+        &__title {
+            font-size: 15px;
+            margin-bottom: 45px;
+            line-height: 27px;
+        }
+
+        &__date {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        &__text {
+            font-size: 12px;
+            margin-bottom: 45px;
+        }
+
+        &__time {
+            margin-bottom: 15px;
+        }
+
+        &__btn {
+            order: 2;
+            margin-right: auto;
+        }
+
+        &__dates {
+            font-size: 12px;
+        }
+    }
+
+    .header {
+        &__menu {
+            height: 60px;
+        }
+    }
+
+    .main {
+        padding-top: 70px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 400px) {
+
+    .slider-wrapper .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .questions {
+        padding-bottom: 0;
+    }
+
+    .slider-wrapper .slick-dots button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .modal-form {
+        padding-bottom: 55px;
+        &__btn {
+            width: 100%;
+        }
+    }
+
+    .modal-form__success,
+    .modal-form__error,
+    .modal-form__warning {
+        bottom: 10px;
+  
+    }
+
+
+    .course-form__success,
+    .course-form__error,
+    .course-form__warning {
+        max-width: 110px;
+        bottom: 25px;
+        font-size: 13px;
+        right: 15px;
+    }
+
+
+    .modal {
+        padding: 25px 15px 25px;
+
+        &__contacts-title {
+            margin-bottom: 10px;
+        }
+
+        &__contacts-link {
+            font-size: 12px;
+        }
+
+        &__contacts-socials {
+            margin-bottom: 10px;
+        }
+
+        &__close {
+            right: -23px;
+            font-size: 38px;
+        }
+    }
+
+    .modal-form {
+
+        &__title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__line:last-of-type {
+            margin-bottom: 20px;
+        }
+    }
+
+    .reviews-item,
+    .others-course-item {
+        margin-bottom: 10px;
+    }
+
+    .accordion-card:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+
+
+    .accordion-card {
+        &__header {
+            margin-bottom: 0;
+        }
+
+        &__body-descr {
+            padding-top: 15px;
+            padding-left: 50px
+        }
+    }
+
+    .instructors-item,
+    .certificate-course {
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+    .reviews-item {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__image {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    .others-course-item {
+        &__btn {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .instructors-item {
+        padding: 30px;
+
+        &__social-icons {
+            gap: 10px;
+
+        }
+
+    }
+
+
+    .why-us {
+        &__item {
+            padding-top: 0;
+            padding-left: 55px;
+        }
+
+        &__item::before {
+            left: 0;
+        }
+    }
+}
