@@ -15,7 +15,7 @@
 
         <header class="header">
             <div class="header__menu">
-                <ul class="header-list header-list_ header-list_mobile">
+                <ul class="header-list header-list_red header-list_mobile">
                     <li class="header-list__item">
                         <a class="header-list__link" href="#program">
                             Программа
@@ -96,23 +96,32 @@
 
             <div class="container">
                 <section class="main-card">
-                    <div class="main-card__descr">
-                        <h1 class="main-card__title">
-                            Заголовок максимум
-                            в три строки тут
-                            можно разместить
-                        </h1>
-                        <p class="main-card__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus risus, molestie
-                            vel
-                            posuere at, suscipit non diam. Orci varius natoque penatibus et magnis dis parturient
-                            montes, nascetur ridiculus mus. Suspendisse ornare suscipit pulvinar. Ut in molestie
-                            nibh,
-                            et bibendum magna.
-                        </p>
-                    </div>
+                    <div class="main-card__wrapper">
 
-                    <img class="main-card__image" src="images/index-page/main-pics/main-card-image.png" alt="">
+
+                        <div class="main-card__descr">
+                            <h1 class="main-card__title">
+                                Заголовок максимум
+                                в три строки тут
+                                можно разместить
+                            </h1>
+                            <p class="main-card__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus risus, molestie
+                                vel
+                                posuere at, suscipit non diam. Orci varius natoque penatibus et magnis dis parturient
+                                montes, nascetur ridiculus mus. Suspendisse ornare suscipit pulvinar. Ut in molestie
+                                nibh,
+                                et bibendum magna.
+                            </p>
+                        </div>
+
+
+                        <picture>
+                            <source srcset="images/index-page/main-pics/main-card-image_mobile.png"
+                                media="(max-width: 991px)">
+                            <img class="main-card__image" src="images/index-page/main-pics/main-card-image.png" alt="">
+                        </picture>
+                    </div>
 
                 </section>
             </div>
@@ -120,10 +129,10 @@
             <section class="about-us">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-5">
+                        <div class="col-xl-5 d-none d-xl-block">
                             <img class="about-us__image" src="images/index-page/main-pics/about-image.png" alt="">
                         </div>
-                        <div class="col-xl-7">
+                        <div class="col-xl-7 col-lg-12">
                             <div class="about-us__descr">
                                 <h2 class="about-us__title title">
                                     О нас
@@ -179,7 +188,7 @@
             </section>
 
 
-            <section class="our-courses">
+            <section class="our-courses" id="#program">
                 <div class="container">
                     <h3 class="our-courses__title title">
                         Наши курсы по направлениям
@@ -188,7 +197,7 @@
 
                     <div class="our-courses__choice">
                         <div class="our-courses__name">
-                            <div class="row">
+                            <div class="row gy-4">
                                 <div class="col-xl-6">
                                     <div class="our-courses__naming our-courses__naming_red">
                                         <h2 class="our-courses__naming-title">
@@ -211,7 +220,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row gy-4">
 
                             <div class="col-xl-5">
                                 <div class="others-course-item">
@@ -233,7 +242,7 @@
                                         non diam.
                                     </p>
 
-                                    <button class="others-course-item__btn others-course-item__btn_red">
+                                    <button class="others-course-item__btn ">
                                         Узнать подробнее
                                     </button>
                                 </div>
@@ -258,7 +267,7 @@
                                         non diam.
                                     </p>
 
-                                    <button class="others-course-item__btn others-course-item__btn_red">
+                                    <button class="others-course-item__btn ">
                                         Узнать подробнее
                                     </button>
                                 </div>
@@ -277,7 +286,7 @@
 
                     <div class="our-courses__choice">
                         <div class="our-courses__name">
-                            <div class="row">
+                            <div class="row gy-4">
                                 <div class="col-xl-6">
                                     <div class="our-courses__naming our-courses__naming_blue">
                                         <h2 class="our-courses__naming-title">
@@ -300,7 +309,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row gy-4">
 
                             <div class="col-xl-5">
                                 <div class="others-course-item">
@@ -322,7 +331,7 @@
                                         non diam.
                                     </p>
 
-                                    <button class="others-course-item__btn others-course-item__btn_red">
+                                    <button class="others-course-item__btn ">
                                         Узнать подробнее
                                     </button>
                                 </div>
@@ -347,7 +356,7 @@
                                         non diam.
                                     </p>
 
-                                    <button class="others-course-item__btn others-course-item__btn_red">
+                                    <button class="others-course-item__btn ">
                                         Узнать подробнее
                                     </button>
                                 </div>
@@ -366,7 +375,7 @@
 
                     <div class="our-courses__choice">
                         <div class="our-courses__name">
-                            <div class="row">
+                            <div class="row gy-4">
                                 <div class="col-xl-6">
                                     <div class="our-courses__naming our-courses__naming_purple">
                                         <h2 class="our-courses__naming-title">
@@ -411,7 +420,7 @@
                                         non diam.
                                     </p>
 
-                                    <button class="others-course-item__btn others-course-item__btn_red">
+                                    <button class="others-course-item__btn ">
                                         Узнать подробнее
                                     </button>
                                 </div>
@@ -436,7 +445,7 @@
                                         non diam.
                                     </p>
 
-                                    <button class="others-course-item__btn others-course-item__btn_red">
+                                    <button class="others-course-item__btn">
                                         Узнать подробнее
                                     </button>
                                 </div>
@@ -452,14 +461,8 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
             </section>
-
-
 
 
             <section class="timetable">
@@ -484,6 +487,7 @@
                         <div class="col-xl-6">
                             <div class="our-instructors-item">
                                 <div class="our-instructors-item__top">
+
                                     <img class="our-instructors-item__image"
                                         src="images/index-page/main-pics/instructor-image.png" alt="instructor-image">
 
@@ -789,7 +793,6 @@
             </section>
 
 
-
             <section class="course-and-form">
                 <div class="container">
                     <div class="course">
@@ -1020,7 +1023,7 @@
                             </h3>
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="why-us__item star star_blue">
+                                    <div class="why-us__item star star_blue star_1">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus
                                         risus,
                                         molestie vel posuere at, suscipit non diam.
@@ -1028,7 +1031,7 @@
 
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="why-us__item star star_purple">
+                                    <div class="why-us__item star star_purple  star_2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus
                                         risus,
                                         molestie vel posuere at, suscipit non diam.
@@ -1036,7 +1039,7 @@
 
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="why-us__item star star_red">
+                                    <div class="why-us__item star star_red  star_3">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus
                                         risus,
                                         molestie vel posuere at, suscipit non diam.
@@ -1046,7 +1049,7 @@
 
 
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="why-us__item star star_blue">
+                                    <div class="why-us__item star star_blue  star_4">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus
                                         risus,
                                         molestie vel posuere at, suscipit non diam.
@@ -1054,7 +1057,7 @@
 
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="why-us__item star star_purple">
+                                    <div class="why-us__item star star_purple  star_5">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus
                                         risus,
                                         molestie vel posuere at, suscipit non diam.
@@ -1062,7 +1065,7 @@
 
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="why-us__item star star_red">
+                                    <div class="why-us__item star star_red star_6">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus
                                         risus,
                                         molestie vel posuere at, suscipit non diam.
@@ -1131,8 +1134,17 @@
             <section class="what-is-it">
                 <div class="container">
                     <div class="what-is-it__line what-is-it__line_red line-1-what-is-it">
-                        <img class="line-1-what-is-it__image" src="images/index-page/main-pics/what-is-it__image.png"
-                            alt="">
+
+                        <picture>
+                            <source srcset="images/index-page/main-pics/what-is-it__image_mobile.png"
+                                media="(max-width: 991px)">
+                          <img class="line-1-what-is-it__image what-is-it__image"
+                              src="images/index-page/main-pics/what-is-it__image.png" alt="">
+                        </picture>
+
+                       
+
+
                         <div class="line-1-what-is-it__descr  what-is-it__descr">
                             <h2 class="line-1-what-is-it__title title">
                                 Что такое тактическая
@@ -1201,14 +1213,22 @@
                             </p>
 
                         </div>
-                        <img class="line-2-what-is-it__image" src="images/index-page/main-pics/what-is-it__image.png"
-                            alt="">
+                         <picture>
+                             <source srcset="images/index-page/main-pics/what-is-it__image_mobile.png"
+                                 media="(max-width: 991px)">
+                             <img class="line-1-what-is-it__image what-is-it__image"
+                                 src="images/index-page/main-pics/what-is-it__image.png" alt="">
+                         </picture>
 
                     </div>
 
                     <div class="what-is-it__line what-is-it__line_blue line-3-what-is-it">
-                        <img class="line-3-what-is-it__image" src="images/index-page/main-pics/what-is-it__image.png"
-                            alt="">
+                     <picture>
+                         <source srcset="images/index-page/main-pics/what-is-it__image_mobile.png"
+                             media="(max-width: 991px)">
+                         <img class="line-1-what-is-it__image what-is-it__image"
+                             src="images/index-page/main-pics/what-is-it__image.png" alt="">
+                     </picture>
                         <div class="line-3-what-is-it__descr what-is-it__descr">
                             <h2 class="line-3-what-is-it__title title">
                                 Принципы оказания первой медицинской помощи
@@ -1257,14 +1277,7 @@
                 </div>
             </section>
 
-
-
-
-
-
-
-
-            <section class="reviews" id="reviews">
+         <section class="reviews" id="reviews">
                 <div class="container">
                     <h3 class="reviews__title title">
                         Отзывы
@@ -1344,13 +1357,13 @@
                 </div>
             </section>
 
-            <div class="our-blog">
+       <section class="our-blog">
                 <div class="container">
                     <h2 class="our-blog__title title">
                         Наш блог
                     </h2>
 
-                    <div class="row">
+                    <div class="row gy-3">
 
                         <div class="col-xl-5">
                             <div class="our-blog-item">
@@ -1408,13 +1421,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-
-            <div class="master-class">
+                     <section class="master-class">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-10 offset-xl-1">
+                        <div class="col-xl-10 offset-xl-1 col-lg-12 offset-lg-0">
                             <h2 class="master-class__title title">
                                 Нужен мастер-класс или
                                 курс для организации?
@@ -1482,8 +1494,7 @@
                     </div>
 
                 </div>
-            </div>
-
+            </section>
 
             <section class="questions">
                 <div class="container">
@@ -1572,7 +1583,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> 
 
         </main>
 
