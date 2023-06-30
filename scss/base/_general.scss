@@ -289,18 +289,20 @@ body {
 }
 
 
-.our-courses__naming_red {
+
+
+.choice__naming_red {
     background-color: $main-red-color;
-}
-
-
-.our-courses__naming_red {
     background-image: url('../../images/index-page/red/tactic-medicine.svg');
     background-repeat: no-repeat;
     background-size: contain;
 
 }
 
+.choice__more_red {
+    background-color: $main-dark-red-color;
+
+}
 
 
 
@@ -438,10 +440,6 @@ body {
 
 }
 
-.our-courses__more_red {
-    background-color: $main-dark-red-color;
-
-}
 
 
 // BLUE particles
@@ -459,19 +457,16 @@ body {
     }
 }
 
-.our-courses__naming_blue {
-    background-color: $main-blue-color;
-}
 
 
-.our-courses__more_blue {
+
+.choice__more_blue {
     background-color: $main-dark-blue-color;
 
 }
 
-
-
-.our-courses__naming_blue {
+.choice__naming_blue {
+    background-color: $main-blue-color;
     background-image: url('../../images/index-page/blue/first-aid.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -620,21 +615,16 @@ body {
 }
 
 
-.our-courses__naming_purple {
+.choice__naming_purple {
     background-image: url('../../images/index-page/purple/special-preparation.svg');
     background-repeat: no-repeat;
     background-size: contain;
-
-}
-
-
-
-.our-courses__naming_purple {
     background-color: $main-purple-color;
+
 }
 
 
-.our-courses__more_purple {
+.choice__more_purple {
     background-color: $main-dark-purple-color;
 
 }
@@ -2321,14 +2311,12 @@ body {
 }
 
 
+.choice:not(:last-child) {
+    margin-bottom: 45px;
+}
 
-.our-courses {
 
-
-    &__choice:not(:last-child) {
-        margin-bottom: 45px;
-    }
-
+.choice {
     &__name {
         margin-bottom: 30px;
     }
@@ -2341,6 +2329,10 @@ body {
         padding-right: 50px;
         align-items: center;
     }
+}
+
+.choice {
+
 
     &__naming-title {
         max-width: 260px;

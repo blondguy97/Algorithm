@@ -256,9 +256,6 @@
         padding: 40px;
     }
 
-    .footer__col {
-        margin-bottom: 30px;
-    }
 
     .footer__col_2 {
         order: -1;
@@ -615,6 +612,11 @@
         }
     }
 
+    .our-courses {
+        &__choice:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
 
     .star_1::before {
         background-image: url('../../images/index-page/mobile-stars/star_1.svg')
@@ -653,6 +655,7 @@
     .our-instructors-item {
         &__top {
             flex-direction: column;
+            background-position: right;
         }
 
         &__image {
@@ -906,7 +909,7 @@
             margin-bottom: 45px;
         }
 
- 
+
 
         &__link_email {
             font-size: 15px;
