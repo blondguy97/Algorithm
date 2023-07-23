@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-
     // Hamburger
 
     const menu = document.querySelector('.header-list_mobile'),
@@ -171,7 +170,6 @@ document.addEventListener('DOMContentLoaded', function () {
         return false;
 
     });
-
 
 
 })

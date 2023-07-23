@@ -20,10 +20,15 @@
 
 
 
+    .instructor-name {
+        &__title {
+            margin-bottom: 100px;
+        }
+    }
 
 
 
-    .our-courses {
+    .choice {
         &__more {
             flex-direction: row;
         }
@@ -103,7 +108,6 @@
 
         &__title {
             font-size: 28px;
-            margin-bottom: 30px;
         }
     }
 
@@ -153,12 +157,14 @@
         }
     }
 
+  
 
     .help,
     .program,
     .gallery,
     .course-and-form,
     .certificate,
+    .instructor,
     .timetable,
     .others-courses,
     .questions,
@@ -210,14 +216,14 @@
         }
     }
 
-    .our-courses {
+    .choice {
         &__naming-title {
             font-size: 35px;
         }
     }
 
     .main-card {
-        background-image: url('../../images/index-page/main-pics/main-card-bg_mobile.png');
+        background-image: url('../images/index-page/main-pics/main-card-bg_mobile.png');
 
         &__wrapper {
             flex-direction: column;
@@ -384,9 +390,7 @@
     }
 
     .certificate-slider {
-        &__title {
-            margin-bottom: 20px;
-        }
+
 
         &__text {
             margin-bottom: 40px;
@@ -399,6 +403,8 @@
     .gallery,
     .course-and-form,
     .certificate,
+    .instructor,
+
     .timetable,
     .others-courses,
     .questions,
@@ -414,6 +420,37 @@
     .gallery-video {
         height: 280px;
     }
+
+
+
+    .instructor-name {
+        padding: 15px;
+
+        &__title {
+            margin-bottom: 60px;
+        }
+    }
+
+
+    .instructor-image {
+
+        &__socials {
+            top: 15px;
+            right: 15px;
+            gap: 20px;
+        }
+
+
+
+        &__sign {
+            bottom: 15px;
+            left: 15px;
+            padding: 8px 10px;
+
+        }
+    }
+
+
 
 
     .our-instructors-item {
@@ -595,6 +632,7 @@
     .course-and-form,
     .certificate,
     .timetable,
+    .instructor,
     .others-courses,
     .questions,
     .footer {
@@ -612,34 +650,74 @@
         }
     }
 
+
+    .our-instructors_padding {
+        padding: 30px 0;
+    }
+
+    .instructor-name {
+        &__title {
+            font-size: 35px;
+        }
+    }
+
+
+    .our-instructors {
+        &__text {
+            margin-bottom: 30px;
+        }
+    }
+
     .our-courses {
         &__choice:not(:last-child) {
             margin-bottom: 30px;
         }
     }
 
+
+
+
+    .bio-instructor-about,
+    .experience-instructor-about {
+        padding: 20px;
+    }
+
+
+    .our-instructors-item {
+        &__bottom {
+            padding: 12px 15px 15px 15px;
+        }
+
+
+        &__btn {
+            bottom: 15px;
+            left: 15px;
+
+        }
+    }
+
     .star_1::before {
-        background-image: url('../../images/index-page/mobile-stars/star_1.svg')
+        background-image: url('../images/index-page/mobile-stars/star_1.svg')
     }
 
     .star_2::before {
-        background-image: url('../../images/index-page/mobile-stars/star_2.svg')
+        background-image: url('../images/index-page/mobile-stars/star_2.svg')
     }
 
     .star_3::before {
-        background-image: url('../../images/index-page/mobile-stars/star_3.svg')
+        background-image: url('../images/index-page/mobile-stars/star_3.svg')
     }
 
     .star_4::before {
-        background-image: url('../../images/index-page/mobile-stars/star_4.svg')
+        background-image: url('../images/index-page/mobile-stars/star_4.svg')
     }
 
     .star_5::before {
-        background-image: url('../../images/index-page/mobile-stars/star_5.svg')
+        background-image: url('../images/index-page/mobile-stars/star_5.svg')
     }
 
     .star_6::before {
-        background-image: url('../../images/index-page/mobile-stars/star_6.svg')
+        background-image: url('../images/index-page/mobile-stars/star_6.svg')
     }
 
     .watch-all {
@@ -668,7 +746,7 @@
         }
     }
 
-    .our-courses {
+    .choice {
         &__naming {
             padding-left: 140px;
             min-height: 100px;
@@ -726,6 +804,8 @@
     .course-and-form,
     .certificate,
     .timetable,
+    .instructor,
+
     .others-courses,
     .questions,
     .our-courses,
@@ -757,6 +837,7 @@
 
 
 
+
     .certificate-course {
         position: relative;
         padding: 15px 15px 100px;
@@ -772,6 +853,12 @@
             justify-content: space-evenly;
         }
     }
+
+    .certificate-course_no-padding {
+        padding: 15px;
+
+    }
+
 
     .certificate-slider {
 
@@ -1284,6 +1371,12 @@
     }
 
 
+    .choice {
+        &__more {
+            padding: 20px 25px;
+        }
+    }
+
 
     .accordion-card {
         &__header {
@@ -1335,7 +1428,7 @@
 
     }
 
-    .our-courses {
+    .choice {
         &__naming {
             padding-left: 130px;
         }
