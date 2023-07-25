@@ -2850,7 +2850,7 @@ body {
     position: absolute;
     left: 0;
     top: 50%;
-    background: url('../../images/instructor-page/icons/arrow-left.svg') no-repeat center / cover;
+    background: url('../images/instructor-page/icons/arrow-left.svg') no-repeat center / cover;
     transform: translateY(-50%);
     width: 20px;
     height: 8px;
@@ -2861,7 +2861,7 @@ body {
     border-radius: 40px;
     height: 100%;
     padding: 45px 45px 50px 45px;
-    background: url('../../images/instructor-page/exp-bg.png') no-repeat 0 0 / cover;
+    background: url('../images/instructor-page/exp-bg.png') no-repeat 0 0 / cover;
 
     &__title {}
 
