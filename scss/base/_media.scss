@@ -485,6 +485,10 @@
     }
 
 
+    .our-instructors {
+        padding-top: 20px;
+    }
+
 
 
     .blog {
@@ -728,7 +732,10 @@
         }
     }
 
-
+    .article-experience__link-prev,
+    .article-experience__link-next {
+        font-size: 11px;
+    }
 
 
     .article-about {
@@ -1402,30 +1409,26 @@
     }
 
 
-        .article-experience {
-            &__quote-text {
-                font-size: 24px;
-            }
+    .article-experience {
+        &__quote-text {
+            font-size: 24px;
         }
+    }
 
-        .article-experience {
-            &__quote {
-                padding: 15px 0;
-            }
+    .article-experience {
+        &__quote {
+            padding: 15px 0;
         }
+    }
 
-        .part-experience-article {
-            &__title {
-                font-size: 25px;
-                margin-bottom: 20px;
-            }
+    .part-experience-article {
+        &__title {
+            font-size: 25px;
+            margin-bottom: 20px;
         }
+    }
 
 
-        .article-experience__link-prev,
-        .article-experience__link-next {
-            font-size: 11px;
-        }
 
     .watch-all {
         min-height: 110px;
