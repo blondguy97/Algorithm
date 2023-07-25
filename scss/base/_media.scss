@@ -19,6 +19,15 @@
     }
 
 
+    .blog-articles {
+        flex-wrap: wrap;
+
+        &__link {
+            padding: 8px 10px;
+        }
+    }
+
+
 
     .instructor-name {
         &__title {
@@ -61,6 +70,7 @@
             margin-bottom: 30px;
         }
     }
+
 
 
 
@@ -157,7 +167,7 @@
         }
     }
 
-  
+
 
     .help,
     .program,
@@ -166,8 +176,15 @@
     .certificate,
     .instructor,
     .timetable,
+    .article-experience,
+
     .others-courses,
     .questions,
+    .same-articles,
+    .ideas,
+    .blog,
+    .article,
+
     .footer {
         padding-bottom: 70px;
     }
@@ -397,6 +414,13 @@
         }
     }
 
+    .blog-item {
+        &__tag-and-date {
+            justify-content: initial;
+            gap: 10px;
+        }
+    }
+
 
     .help,
     .program,
@@ -404,8 +428,14 @@
     .course-and-form,
     .certificate,
     .instructor,
+    .ideas,
+    .blog,
+    .article,
+
+    .article-experience,
 
     .timetable,
+    .same-articles,
     .others-courses,
     .questions,
     .footer {
@@ -422,6 +452,17 @@
     }
 
 
+
+
+
+    .blog {
+        padding-top: 20px;
+
+        &__text,
+        &__title {
+            margin-bottom: 50px;
+        }
+    }
 
     .instructor-name {
         padding: 15px;
@@ -632,6 +673,11 @@
     .course-and-form,
     .certificate,
     .timetable,
+    .ideas,
+    .same-articles,
+    .blog,
+    .article-experience,
+
     .instructor,
     .others-courses,
     .questions,
@@ -650,6 +696,15 @@
         }
     }
 
+    .blog {
+        padding-top: 10px;
+
+        &__text,
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+
 
     .our-instructors_padding {
         padding: 30px 0;
@@ -660,6 +715,21 @@
             font-size: 35px;
         }
     }
+
+
+
+    .pagination {
+
+        &__list {
+            display: flex;
+            padding: 0 20px;
+        }
+
+
+
+
+    }
+
 
 
     .our-instructors {
@@ -805,15 +875,20 @@
     .certificate,
     .timetable,
     .instructor,
-
     .others-courses,
     .questions,
     .our-courses,
     .our-instructors,
     .what-is-it,
     .our-blog,
+    .same-articles,
+    .article,
+    .article-experience,
+
     .master-class,
     .about-us,
+    .ideas,
+    .blog,
     .footer {
         padding-bottom: 30px;
     }

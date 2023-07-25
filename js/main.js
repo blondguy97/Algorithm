@@ -91,8 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: false,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
@@ -121,8 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if ($(this).next('.program-advices__body').hasClass('active')) {
             $(this).next('.program-advices__body').removeClass('active').slideUp()
 
-        }
-        else {
+        } else {
             $('.program-advices__body').removeClass('active').slideUp()
             $(this).next('.program-advices__body').addClass('active').slideDown()
         }
@@ -134,8 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if ($(this).next('.accordion-card__body').hasClass('active')) {
             $(this).next('.accordion-card__body').removeClass('active').slideUp()
 
-        }
-        else {
+        } else {
             $('.accordion-card__body').removeClass('active').slideUp()
             $(this).next('.accordion-card__body').addClass('active').slideDown()
         }
@@ -172,6 +169,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
+
+    $('body').on('click', '.blog-articles__link', function () {
+        $('.blog-articles__link').removeClass("blog-articles__link_active");
+        $(this).addClass('blog-articles__link_active');
+        var href = $(this).attr('href');
+        $('.blog__list').removeClass('blog__list_active').removeClass('in');
+        $(href).addClass('blog__list_active');
+        setTimeout(function () {
+            $(href).addClass('in');
+        }, 300);
+        return false;
+
+    });
+
+
 })
 
 
@@ -181,4 +193,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // Validate forms
-
