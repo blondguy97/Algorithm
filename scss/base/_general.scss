@@ -12,6 +12,8 @@ body {
     height: 100%;
     color: $main-color;
     scroll-behavior: smooth;
+    line-height: 1;
+
 }
 
 .wrapper {
@@ -1898,6 +1900,7 @@ body {
     background-color: #1c1c1c;
     border-radius: 40px;
     padding: 45px;
+
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -1910,7 +1913,6 @@ body {
         font-size: 60px;
         margin-bottom: 160px;
         font-weight: 700;
-        line-height: 61px;
     }
 
     &__tags {
@@ -1984,7 +1986,6 @@ body {
     &__title {
         font-weight: 700;
         font-size: 40px;
-        line-height: 41px;
         color: #FFFFFF;
     }
 
@@ -2001,7 +2002,6 @@ body {
         display: block;
         margin-bottom: 8px;
         font-size: 14px;
-        line-height: 14px;
         color: #FFFFFF;
     }
 
@@ -2143,7 +2143,7 @@ body {
     &__name {
         font-weight: 500;
         font-size: 30px;
-        line-height: 18px;
+        line-height: 1.6;
         margin-bottom: 15px;
         color: #FFFFFF;
     }
@@ -2234,7 +2234,6 @@ body {
 
     &__title {
         font-size: 30px;
-        line-height: 31px;
         color: #FFFFFF;
         margin-bottom: 10px;
 
@@ -2316,6 +2315,102 @@ body {
 
 
 
+
+.article-experience {
+
+
+    &__quote {
+
+
+        margin: 45px 0;
+        padding: 30px 100px;
+        border-top: 1px solid $main-color;
+        border-bottom: 1px solid $main-color;
+    }
+
+    &__quote-text {
+        color: #FFF;
+        text-align: center;
+        font-size: 60px;
+        line-height: 1;
+        font-style: italic;
+    }
+
+    &__image {
+        margin-bottom: 90px;
+    }
+
+    &__img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__lists {}
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        border-top: 1px solid $main-color;
+    }
+
+    &__link-prev {
+        padding: 12px 18px;
+        width: auto;
+    }
+
+    &__link-next {
+        padding: 12px 18px;
+        width: auto;
+    }
+}
+
+
+.part-experience-article {
+
+    &__title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__text:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+
+.part-experience-article_mb-90 {
+    margin-bottom: 90px;
+}
+
+.part-experience-article_mb-45 {
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+.list-article-experience {
+
+    ul,
+    ol,
+    li {
+        list-style-type: revert;
+        padding-left: revert;
+    }
+}
+
+
+
+
+
+
+
+
+
 .timetable {
 
 
@@ -2364,7 +2459,6 @@ body {
         display: block;
         margin-top: 20px;
         font-size: 14px;
-        line-height: 14px;
     }
 
     &__detail {
@@ -2404,7 +2498,6 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
-        line-height: 22px;
         margin-bottom: 35px;
         color: #FFFFFF;
     }
@@ -2412,7 +2505,6 @@ body {
     &__time {
         display: block;
         font-size: 14px;
-        line-height: 14px;
         color: $main-color;
         margin-top: 15px;
     }
@@ -2445,7 +2537,6 @@ body {
         cursor: pointer;
         position: relative;
         font-size: 30px;
-        line-height: 31px;
         padding-left: 80px;
         margin-bottom: 30px;
     }
@@ -2490,7 +2581,6 @@ body {
     position: absolute;
     right: 45px;
     font-size: 14px;
-    line-height: 14px;
     text-align: right;
     max-width: 140px;
     color: $main-red-color;
@@ -2569,7 +2659,7 @@ body {
     &__link_phone {
         font-size: 40px;
         margin-bottom: 15px;
-        line-height: 31px;
+        line-height: 1.3;
     }
 
     &__social {
@@ -2590,7 +2680,6 @@ body {
 
     &__social-address {
         max-width: 260px;
-        line-height: 22px;
     }
 }
 
@@ -2670,7 +2759,6 @@ body {
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
-        line-height: 31px;
     }
 
     &__more-plus {
@@ -2693,7 +2781,6 @@ body {
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
-        line-height: 31px;
     }
 
     &__more-plus {
@@ -2789,27 +2876,33 @@ body {
     justify-content: center;
     padding-bottom: 30px;
     border-bottom: 1px solid #fff;
+
     &__list {
         display: flex;
         padding: 0 30px;
     }
+
     &__item {
         padding: 0 7.5px;
     }
+
     &__link {
         color: #fff;
 
     }
+
     &__link_active {
         color: #000;
         background-color: #fff;
         border-radius: 50%;
-        padding:  6px 12px;
+        padding: 6px 12px;
 
     }
+
     &__double-prev {
         margin-right: 15px;
     }
+
     &__double-next {
         margin-left: 15px;
     }
@@ -2907,7 +3000,6 @@ body {
     color: $main-light-dark-color;
     font-size: 60px;
     font-weight: 700;
-    line-height: 61px;
 
     span {
         font-size: 30px;

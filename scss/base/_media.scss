@@ -18,6 +18,18 @@
         }
     }
 
+    .article-about {
+        &__title {
+            margin-bottom: 100px;
+        }
+    }
+
+    .article-experience {
+        &__quote {
+            padding: 30px 0;
+        }
+    }
+
 
     .blog-articles {
         flex-wrap: wrap;
@@ -213,6 +225,22 @@
         margin-bottom: 30px;
         height: auto;
     }
+
+
+
+    .part-experience-article_mb-90,
+    .part-experience-article_mb-45,
+    .article-experience__image {
+        margin-bottom: 40px;
+    }
+
+
+    .article-experience {
+        &__quote-text {
+            font-size: 40px;
+        }
+    }
+
 
     .what-is-it {
         &__line {
@@ -451,6 +479,10 @@
         height: 280px;
     }
 
+
+    .article-about {
+        padding: 15px;
+    }
 
 
 
@@ -695,6 +727,18 @@
             width: 50%;
         }
     }
+
+
+
+
+    .article-about {
+        &__title {
+            font-size: 35px;
+            margin-bottom: 60px;
+        }
+    }
+
+
 
     .blog {
         padding-top: 10px;
@@ -1346,6 +1390,42 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+
+
+    .part-experience-article {
+
+
+        &__text:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+
+
+        .article-experience {
+            &__quote-text {
+                font-size: 24px;
+            }
+        }
+
+        .article-experience {
+            &__quote {
+                padding: 15px 0;
+            }
+        }
+
+        .part-experience-article {
+            &__title {
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        .article-experience__link-prev,
+        .article-experience__link-next {
+            font-size: 11px;
+        }
 
     .watch-all {
         min-height: 110px;
