@@ -84,7 +84,45 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
 
+
+
+
     // Slider
+
+
+    $('.gratefulness-slider__wrapper').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '0px',
+        autoplaySpeed: 3000,
+        // autoplay: true,
+        responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    centerMode: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    centerMode: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
+
+    })
 
 
     $('.slider').slick({

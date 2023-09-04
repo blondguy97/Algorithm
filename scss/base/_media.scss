@@ -188,15 +188,22 @@
     .certificate,
     .instructor,
     .timetable,
+    .our-classroom,
+    .our-polygons,
     .article-experience,
-
+    .feedback,
     .others-courses,
+    .gratefulness,
     .questions,
+    .video-feedback,
     .same-articles,
     .ideas,
     .blog,
     .article,
-
+    .yandex-reviews,
+    .dates,
+    .contacts,
+    .info-about-us,
     .footer {
         padding-bottom: 70px;
     }
@@ -226,6 +233,56 @@
         height: auto;
     }
 
+
+    .item-our-polygons {
+        &__image {
+            display: none;
+        }
+
+        &__pic-list {
+            display: none;
+        }
+        &__pic-list_mobile {
+            display: flex;
+            flex-wrap: wrap;
+            
+            .item-our-polygons__pic {
+                width: 50%;
+                padding: 8px;
+                
+            }
+            .item-our-polygons__pic-img {
+                width: 100%;
+            }
+        }
+    }
+
+    .info-contacts {
+        background-image: none;
+        padding: 0;
+
+
+        &__connection {
+            background-image: url('../../images/contacts/info-descr_mobile.png');
+            background-size: cover;
+            padding: 20px;
+            display: block;
+            background-position: right;
+            border-radius: 40px;
+            background-repeat: no-repeat;
+
+        }
+
+        &__phone {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        &__social-icons {
+            align-self: flex-start;
+            margin: 15px 0 0 15px;
+        }
+    }
 
 
     .part-experience-article_mb-90,
@@ -453,15 +510,22 @@
     .help,
     .program,
     .gallery,
+    .our-polygons,
     .course-and-form,
     .certificate,
     .instructor,
+    .our-classroom,
     .ideas,
+    .contacts,
     .blog,
+    .dates,
     .article,
-
+    .info-about-us,
+    .yandex-reviews,
     .article-experience,
-
+    .feedback,
+    .gratefulness,
+    .video-feedback,
     .timetable,
     .same-articles,
     .others-courses,
@@ -485,11 +549,68 @@
     }
 
 
+    .block-timeline {
+        gap: 60px;
+
+        &__date {
+            display: none;
+        }
+
+        &__date_mobile {
+            display: block;
+        }
+    }
+
+
+
+
+
+    .our-classroom {
+
+
+        &__descr {
+            background-color: $main-light-dark-color;
+            border-radius: 40px;
+            padding: 15px 0 0 15px;
+        }
+
+        &__title {
+            display: none;
+        }
+
+        &__title_mobile {
+            display: block;
+        }
+
+        &__image {
+            display: none;
+        }
+
+        &__image_mobile {
+            display: block;
+        }
+    }
+
+    .descr-contacts {
+        background-color: transparent;
+        padding: 0;
+    }
+
+
+
+
+
+
     .our-instructors {
         padding-top: 20px;
     }
 
 
+    .info-about-us {
+        &__text {
+            margin-bottom: 50px;
+        }
+    }
 
     .blog {
         padding-top: 20px;
@@ -709,13 +830,21 @@
     .course-and-form,
     .certificate,
     .timetable,
+    .dates,
     .ideas,
+    .our-polygons,
+    .our-classroom,
+    .contacts,
     .same-articles,
+    .yandex-reviews,
     .blog,
+    .info-about-us,
     .article-experience,
-
+    .feedback,
+    .gratefulness,
     .instructor,
     .others-courses,
+    .video-feedback,
     .questions,
     .footer {
         padding-bottom: 40px;
@@ -737,6 +866,48 @@
         font-size: 11px;
     }
 
+    .info-contacts {
+        &__phone {
+            font-size: 25px;
+        }
+    }
+
+    .footer-info,
+    .descr-contacts,
+    .info-contacts,
+    .descr-our-classroom,
+    .item-our-polygons {
+        padding: 15px;
+    }
+
+
+    .info-about-us {
+
+        &__what-we-doing,
+        &__why-are-we {
+            padding: 15px;
+        }
+    }
+
+
+
+    .block-timeline {
+        gap: 40px;
+        justify-content: center;
+
+        &__text {
+            flex-basis: 60%;
+        }
+
+        &__date {
+            display: none;
+        }
+
+        &__date_mobile {
+            display: block;
+        }
+    }
+
 
     .article-about {
         &__title {
@@ -746,6 +917,11 @@
     }
 
 
+    .info-about-us {
+        &__text {
+            margin-bottom: 30px;
+        }
+    }
 
     .blog {
         padding-top: 10px;
@@ -922,12 +1098,17 @@
     .help,
     .program,
     .gallery,
+    .our-polygons,
     .course-and-form,
     .certificate,
     .timetable,
     .instructor,
     .others-courses,
+    .feedback,
+    .gratefulness,
+    .our-classroom,
     .questions,
+    .video-feedback,
     .our-courses,
     .our-instructors,
     .what-is-it,
@@ -935,11 +1116,14 @@
     .same-articles,
     .article,
     .article-experience,
-
+    .contacts,
+    .yandex-reviews,
     .master-class,
     .about-us,
     .ideas,
     .blog,
+    .dates,
+    .info-about-us,
     .footer {
         padding-bottom: 30px;
     }
@@ -979,6 +1163,9 @@
             justify-content: space-evenly;
         }
     }
+
+
+
 
     .certificate-course_no-padding {
         padding: 15px;
@@ -1335,6 +1522,10 @@
         margin-bottom: 15px;
     }
 
+    .item-our-polygons {
+        padding: 15px;
+    }
+
     .big-card {
         padding: 15px;
         margin-bottom: 10px;
@@ -1398,6 +1589,56 @@
         transform: translateX(-50%);
     }
 
+    .gratefulness-slider {
+
+        &__reveal {
+            display: none;
+        }
+
+        &__reveal_mobile {
+            display: block;
+            margin-bottom: 30px;
+            font-size: 12px;
+        }
+    }
+
+
+    .feedback {
+        &__list {
+            justify-content: flex-start;
+        }
+    }
+
+
+
+    .slick-slide {
+        padding: 0 25px;
+    }
+
+    .gratefulness {
+        background-color: $main-light-dark-color;
+        border-radius: 40px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .block-timeline {
+        gap: 40px;
+
+        &__text {
+            font-size: 15px;
+        }
+
+        &__date {
+            display: none;
+        }
+
+        &__date_mobile {
+            display: block;
+        }
+    }
 
 
     .part-experience-article {
@@ -1570,6 +1811,7 @@
 
     .others-course-item {
         &__btn {
+            text-align: center;
             width: 100%;
         }
     }
