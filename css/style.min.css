@@ -7022,7 +7022,7 @@ body {
   border-radius: 40px;
   height: 100%;
   padding: 45px 45px 50px 45px;
-  background: url("../../images/about-us/why-us-bg.png") no-repeat 0 0/cover;
+  background: url("../images/about-us/why-us-bg.png") no-repeat 0 0/cover;
 }
 
 .contacts__descr {
@@ -7050,7 +7050,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 50px 60px;
-  background-image: url("../../images/contacts/info-descr__bg.png");
+  background-image: url("../images/contacts/info-descr__bg.png");
 }
 .info-contacts__connection *:not(:last-child) {
   margin-bottom: 20px;
@@ -7859,7 +7859,7 @@ body {
 }
 .gratefulness-slider__reveal::before {
   content: "";
-  background-image: url("../../images/feedback/reveal-icon.svg");
+  background-image: url("../images/feedback/reveal-icon.svg");
   position: absolute;
   top: 0;
   width: 20px;
@@ -8129,6 +8129,7 @@ body {
   .item-our-polygons__pic-list_mobile {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -8px;
   }
   .item-our-polygons__pic-list_mobile .item-our-polygons__pic {
     width: 50%;
@@ -8142,7 +8143,7 @@ body {
     padding: 0;
   }
   .info-contacts__connection {
-    background-image: url("../../images/contacts/info-descr_mobile.png");
+    background-image: url("../images/contacts/info-descr_mobile.png");
     background-size: cover;
     padding: 20px;
     display: block;

@@ -245,6 +245,7 @@
         &__pic-list_mobile {
             display: flex;
             flex-wrap: wrap;
+            margin: 0 -8px;
             
             .item-our-polygons__pic {
                 width: 50%;
@@ -263,7 +264,7 @@
 
 
         &__connection {
-            background-image: url('../../images/contacts/info-descr_mobile.png');
+            background-image: url('../images/contacts/info-descr_mobile.png');
             background-size: cover;
             padding: 20px;
             display: block;

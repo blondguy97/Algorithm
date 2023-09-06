@@ -2076,7 +2076,7 @@ body {
         border-radius: 40px;
         height: 100%;
         padding: 45px 45px 50px 45px;
-        background: url('../../images/about-us/why-us-bg.png') no-repeat 0 0/cover;
+        background: url('../images/about-us/why-us-bg.png') no-repeat 0 0/cover;
 
     }
 }
@@ -2124,7 +2124,7 @@ justify-content: space-between;
     flex-direction: column;
     justify-content: space-between;
     padding: 50px 60px;
-    background-image: url('../../images/contacts/info-descr__bg.png');
+    background-image: url('../images/contacts/info-descr__bg.png');
 
     &__connection *:not(:last-child) {
         margin-bottom: 20px;
@@ -3283,7 +3283,7 @@ justify-content: space-between;
 
     &__reveal::before {
         content: '';
-        background-image: url('../../images/feedback/reveal-icon.svg');
+        background-image: url('../images/feedback/reveal-icon.svg');
         position: absolute;
         top: 0;
         width: 20px;
